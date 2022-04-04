@@ -1,6 +1,7 @@
 const MongoClient = require('mongodb').MongoClient
 // Atlas or not in this line:
 const config = require('../config')
+const logger = require('./logger.service')
 
 module.exports = {
     getCollection
